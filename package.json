@@ -1,0 +1,17 @@
+{
+  "name": "todo-app-html",
+  "version": "1.0.0",
+  "description": "1. Download mongodb from Homebrew with -> `brew tap mongodb/brew` 2. Update Homebrew `brew update` 3. Install mongodb from the downloaded tab `brew install mongodb-community@5.0` 4. Start mongodb `brew services start mongodb-community@5.0` 5. Stop mongodb ` brew services stop mongodb-community@5.0` 6. To see the what brew is running `brew services list`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0"
+  }
+}
